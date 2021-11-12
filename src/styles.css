@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+}
+
+em {
+  color: red;
+}
+label.imp::after {
+  content: "*";
+  color: tomato;
+}
+.form-control:focus {
+  box-shadow: 0 0 !important;
+  border-color: #ced4da !important;
+}
+
+.invalid {
+  border-color: tomato !important;
+}
+.ng-touched .ng-valid {
+  border-color: green !important;
+}
